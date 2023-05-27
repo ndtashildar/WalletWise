@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0806879429ECFBFF0026F14F /* UpdateBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0806879329ECFBFE0026F14F /* UpdateBudgetView.swift */; };
+		081D75E329F4B9CA00E68E91 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081D75E229F4B9CA00E68E91 /* NewsModel.swift */; };
+		081D75E529F4C1FF00E68E91 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081D75E429F4C1FF00E68E91 /* LocationModel.swift */; };
+		08798B4A29EF72AE00285E01 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08798B4929EF72AE00285E01 /* NewsListView.swift */; };
+		08798B4E29EF72ED00285E01 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08798B4D29EF72ED00285E01 /* NewsListViewModel.swift */; };
+		087ADCE429EDD671005DF598 /* BudgetCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087ADCE329EDD671005DF598 /* BudgetCategoryView.swift */; };
+		087ADCE829EE1552005DF598 /* AddSpendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087ADCE729EE1552005DF598 /* AddSpendingView.swift */; };
+		088BE83929ECA106008DBDDF /* Firebase Structure in Resources */ = {isa = PBXBuildFile; fileRef = 088BE83829ECA106008DBDDF /* Firebase Structure */; };
+		08B82E2F29EF380E009EB86C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B82E2E29EF380E009EB86C /* LocationManager.swift */; };
+		08C02B9B29E9EA1F00637334 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C02B9A29E9EA1F00637334 /* LogInView.swift */; };
+		08C02B9F29E9EAC400637334 /* BudgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C02B9E29E9EAC400637334 /* BudgetsView.swift */; };
+		08C02BA129E9EAF000637334 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C02BA029E9EAF000637334 /* MapView.swift */; };
+		08C02BA329E9EB1A00637334 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C02BA229E9EB1A00637334 /* WelcomeView.swift */; };
+		08C02BA529EB7ABF00637334 /* NavBarOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C02BA429EB7ABF00637334 /* NavBarOverlay.swift */; };
+		08C02BA729EB7C9900637334 /* BudgetTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C02BA629EB7C9900637334 /* BudgetTile.swift */; };
+		08C02BA929EB8E5300637334 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C02BA829EB8E5300637334 /* UserViewModel.swift */; };
+		08C02BAB29EB8ED500637334 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C02BAA29EB8ED500637334 /* UserModel.swift */; };
+		08C02BAE29EB911800637334 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 08C02BAD29EB911800637334 /* FirebaseAuth */; };
+		08C02BB029EB930300637334 /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C02BAF29EB930300637334 /* BudgetModel.swift */; };
+		08C02BB229EB931200637334 /* SpendingDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C02BB129EB931200637334 /* SpendingDetailModel.swift */; };
+		08D8E3DA29E4FBB60044BF7A /* WalletWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8E3D929E4FBB60044BF7A /* WalletWiseApp.swift */; };
+		08D8E3DE29E4FBB80044BF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D8E3DD29E4FBB80044BF7A /* Assets.xcassets */; };
+		08D8E3E129E4FBB80044BF7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D8E3E029E4FBB80044BF7A /* Preview Assets.xcassets */; };
+		08D8E3E829E4FC590044BF7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08D8E3E729E4FC590044BF7A /* GoogleService-Info.plist */; };
+		08D8E3EB29E501E10044BF7A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 08D8E3EA29E501E10044BF7A /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0806879329ECFBFE0026F14F /* UpdateBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBudgetView.swift; sourceTree = "<group>"; };
+		081D75E229F4B9CA00E68E91 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		081D75E429F4C1FF00E68E91 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		08798B4929EF72AE00285E01 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		08798B4D29EF72ED00285E01 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
+		087ADCE329EDD671005DF598 /* BudgetCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetCategoryView.swift; sourceTree = "<group>"; };
+		087ADCE729EE1552005DF598 /* AddSpendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSpendingView.swift; sourceTree = "<group>"; };
+		088BE83829ECA106008DBDDF /* Firebase Structure */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Firebase Structure"; sourceTree = "<group>"; };
+		08B82E2D29EF3555009EB86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		08B82E2E29EF380E009EB86C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		08C02B9A29E9EA1F00637334 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		08C02B9E29E9EAC400637334 /* BudgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsView.swift; sourceTree = "<group>"; };
+		08C02BA029E9EAF000637334 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		08C02BA229E9EB1A00637334 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		08C02BA429EB7ABF00637334 /* NavBarOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarOverlay.swift; sourceTree = "<group>"; };
+		08C02BA629EB7C9900637334 /* BudgetTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTile.swift; sourceTree = "<group>"; };
+		08C02BA829EB8E5300637334 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		08C02BAA29EB8ED500637334 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		08C02BAF29EB930300637334 /* BudgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetModel.swift; sourceTree = "<group>"; };
+		08C02BB129EB931200637334 /* SpendingDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingDetailModel.swift; sourceTree = "<group>"; };
+		08D8E3D629E4FBB60044BF7A /* WalletWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D8E3D929E4FBB60044BF7A /* WalletWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletWiseApp.swift; sourceTree = "<group>"; };
+		08D8E3DD29E4FBB80044BF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08D8E3E029E4FBB80044BF7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08D8E3E729E4FC590044BF7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08D8E3D329E4FBB60044BF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D8E3EB29E501E10044BF7A /* FirebaseFirestore in Frameworks */,
+				08C02BAE29EB911800637334 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C02B9629E9E96D00637334 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08C02BA229E9EB1A00637334 /* WelcomeView.swift */,
+				08C02B9A29E9EA1F00637334 /* LogInView.swift */,
+				08C02B9E29E9EAC400637334 /* BudgetsView.swift */,
+				087ADCE329EDD671005DF598 /* BudgetCategoryView.swift */,
+				08C02BA029E9EAF000637334 /* MapView.swift */,
+				08798B4929EF72AE00285E01 /* NewsListView.swift */,
+				0806879329ECFBFE0026F14F /* UpdateBudgetView.swift */,
+				087ADCE729EE1552005DF598 /* AddSpendingView.swift */,
+				08C02BA429EB7ABF00637334 /* NavBarOverlay.swift */,
+				08C02BA629EB7C9900637334 /* BudgetTile.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		08C02B9829E9E9BA00637334 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				08C02BAA29EB8ED500637334 /* UserModel.swift */,
+				08C02BAF29EB930300637334 /* BudgetModel.swift */,
+				08C02BB129EB931200637334 /* SpendingDetailModel.swift */,
+				081D75E229F4B9CA00E68E91 /* NewsModel.swift */,
+				081D75E429F4C1FF00E68E91 /* LocationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		08C02B9929E9E9C100637334 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				08B82E2E29EF380E009EB86C /* LocationManager.swift */,
+				08C02BA829EB8E5300637334 /* UserViewModel.swift */,
+				08798B4D29EF72ED00285E01 /* NewsListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		08C02BAC29EB911800637334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08D8E3CD29E4FBB60044BF7A = {
+			isa = PBXGroup;
+			children = (
+				08D8E3D829E4FBB60044BF7A /* WalletWise */,
+				08D8E3D729E4FBB60044BF7A /* Products */,
+				08C02BAC29EB911800637334 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08D8E3D729E4FBB60044BF7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08D8E3D629E4FBB60044BF7A /* WalletWise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08D8E3D829E4FBB60044BF7A /* WalletWise */ = {
+			isa = PBXGroup;
+			children = (
+				08B82E2D29EF3555009EB86C /* Info.plist */,
+				08D8E3E729E4FC590044BF7A /* GoogleService-Info.plist */,
+				08D8E3D929E4FBB60044BF7A /* WalletWiseApp.swift */,
+				088BE83829ECA106008DBDDF /* Firebase Structure */,
+				08C02B9629E9E96D00637334 /* Views */,
+				08C02B9929E9E9C100637334 /* ViewModels */,
+				08C02B9829E9E9BA00637334 /* Models */,
+				08D8E3DD29E4FBB80044BF7A /* Assets.xcassets */,
+				08D8E3DF29E4FBB80044BF7A /* Preview Content */,
+			);
+			path = WalletWise;
+			sourceTree = "<group>";
+		};
+		08D8E3DF29E4FBB80044BF7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				08D8E3E029E4FBB80044BF7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08D8E3D529E4FBB60044BF7A /* WalletWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D8E3E429E4FBB80044BF7A /* Build configuration list for PBXNativeTarget "WalletWise" */;
+			buildPhases = (
+				08D8E3D229E4FBB60044BF7A /* Sources */,
+				08D8E3D329E4FBB60044BF7A /* Frameworks */,
+				08D8E3D429E4FBB60044BF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalletWise;
+			packageProductDependencies = (
+				08D8E3EA29E501E10044BF7A /* FirebaseFirestore */,
+				08C02BAD29EB911800637334 /* FirebaseAuth */,
+			);
+			productName = WalletWise;
+			productReference = 08D8E3D629E4FBB60044BF7A /* WalletWise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08D8E3CE29E4FBB60044BF7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					08D8E3D529E4FBB60044BF7A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 08D8E3D129E4FBB60044BF7A /* Build configuration list for PBXProject "WalletWise" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08D8E3CD29E4FBB60044BF7A;
+			packageReferences = (
+				08D8E3E929E501E10044BF7A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 08D8E3D729E4FBB60044BF7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08D8E3D529E4FBB60044BF7A /* WalletWise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08D8E3D429E4FBB60044BF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088BE83929ECA106008DBDDF /* Firebase Structure in Resources */,
+				08D8E3E129E4FBB80044BF7A /* Preview Assets.xcassets in Resources */,
+				08D8E3DE29E4FBB80044BF7A /* Assets.xcassets in Resources */,
+				08D8E3E829E4FC590044BF7A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08D8E3D229E4FBB60044BF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0806879429ECFBFF0026F14F /* UpdateBudgetView.swift in Sources */,
+				08798B4A29EF72AE00285E01 /* NewsListView.swift in Sources */,
+				08C02BA529EB7ABF00637334 /* NavBarOverlay.swift in Sources */,
+				08C02BA129E9EAF000637334 /* MapView.swift in Sources */,
+				08C02B9B29E9EA1F00637334 /* LogInView.swift in Sources */,
+				08B82E2F29EF380E009EB86C /* LocationManager.swift in Sources */,
+				08C02BA729EB7C9900637334 /* BudgetTile.swift in Sources */,
+				08C02B9F29E9EAC400637334 /* BudgetsView.swift in Sources */,
+				081D75E329F4B9CA00E68E91 /* NewsModel.swift in Sources */,
+				087ADCE829EE1552005DF598 /* AddSpendingView.swift in Sources */,
+				081D75E529F4C1FF00E68E91 /* LocationModel.swift in Sources */,
+				08D8E3DA29E4FBB60044BF7A /* WalletWiseApp.swift in Sources */,
+				08C02BB029EB930300637334 /* BudgetModel.swift in Sources */,
+				08798B4E29EF72ED00285E01 /* NewsListViewModel.swift in Sources */,
+				08C02BB229EB931200637334 /* SpendingDetailModel.swift in Sources */,
+				08C02BA929EB8E5300637334 /* UserViewModel.swift in Sources */,
+				087ADCE429EDD671005DF598 /* BudgetCategoryView.swift in Sources */,
+				08C02BAB29EB8ED500637334 /* UserModel.swift in Sources */,
+				08C02BA329E9EB1A00637334 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08D8E3E229E4FBB80044BF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08D8E3E329E4FBB80044BF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08D8E3E529E4FBB80044BF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WalletWise/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalletWise/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow Access to Location?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.WalletWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08D8E3E629E4FBB80044BF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WalletWise/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalletWise/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow Access to Location?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.WalletWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08D8E3D129E4FBB60044BF7A /* Build configuration list for PBXProject "WalletWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D8E3E229E4FBB80044BF7A /* Debug */,
+				08D8E3E329E4FBB80044BF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D8E3E429E4FBB80044BF7A /* Build configuration list for PBXNativeTarget "WalletWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D8E3E529E4FBB80044BF7A /* Debug */,
+				08D8E3E629E4FBB80044BF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		08D8E3E929E501E10044BF7A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		08C02BAD29EB911800637334 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08D8E3E929E501E10044BF7A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		08D8E3EA29E501E10044BF7A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08D8E3E929E501E10044BF7A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 08D8E3CE29E4FBB60044BF7A /* Project object */;
+}
